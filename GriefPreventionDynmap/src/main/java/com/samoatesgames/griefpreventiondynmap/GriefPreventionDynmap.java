@@ -104,7 +104,7 @@ public final class GriefPreventionDynmap extends JavaPlugin {
         }
 
         BukkitScheduler scheduler = getServer().getScheduler();
-        m_updateTaskID = scheduler.scheduleSyncRepeatingTask(
+        m_updateTaskID = scheduler.scheduleAsyncRepeatingTask(
                 this,
                 new Runnable() {
                     @Override
