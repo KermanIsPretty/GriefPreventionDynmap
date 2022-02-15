@@ -9,7 +9,7 @@
     <repositories>
         <repository>
             <id>spigot-snapshots</id>
-            <url>https://maven.elmakers.com/repository/</url>
+            <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
         </repository>
         <repository>
             <id>dynmap-repo</id>
